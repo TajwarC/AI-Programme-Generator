@@ -1,9 +1,9 @@
-import ClerkProviderWithRoutes from "frontend\src\auth\ClerkProviderWithRoutes.jsx"
+import ClerkProviderWithRoutes from "./auth/ClerkProviderWithRoutes.jsx"
 import {Routes, Route} from "react-router-dom"
-import {Layout} from "frontend\src\layout\Layout.jsx"
-import {ProgrammeGenerator} from "frontend\src\programme\ProgrammeGenerator.jsx";
-import {HistoryPanel} from "frontend\src\history\HistoryPanel.jsx";
-import {AuthenticationPage} from "frontend\src\auth\AuthenticationPage.jsx"
+import {Layout} from "./layout/Layout.jsx"
+import {ProgrammeGenerator} from "./programme/ProgrammeGenerator.jsx";
+import {HistoryPanel} from "./history/HistoryPanel.jsx";
+import {AuthenticationPage} from "./auth/AuthenticationPage.jsx"
 import './App.css'
 
 function App() {
